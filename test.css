@@ -4,9 +4,15 @@ body {
 	line-height: 1.6;
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
+    font-size: 14px;
 
+}
+.container{
+    position: absolute;
+    left: 37%;
+    top: 20%;
+    border: 1px solid black;
+    padding: 50px;
 }
 h2{
     text-align: center;
@@ -23,4 +29,6 @@ button{
     height: 27px;
     border-radius:5px ;
 }
-
+input{
+    width: 300px;
+}
